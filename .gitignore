@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build outputs
+dist/
+dist-ssr/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# Editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Heavy datasets and non-essential binary / dump files
+*.xlsx
+~$*.xlsx
+*.pdf
+*.docx
+~$*.docx
+*.pptx
+~$*.pptx
+docx_extracted/
+scratch/
+Picture*.png
+heat-Exchanger-1.png
+references/
+*.txt
+*.csv
+read_excel.py
+train_scrub_ml.py
