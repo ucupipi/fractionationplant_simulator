@@ -31,6 +31,7 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 
+# Microsoft Office temp lock files
 # Heavy datasets and non-essential binary / dump files
 *.xlsx
 ~$*.xlsx
@@ -39,6 +40,7 @@ Thumbs.db
 ~$*.docx
 *.pptx
 ~$*.pptx
+
 docx_extracted/
 scratch/
 Picture*.png
