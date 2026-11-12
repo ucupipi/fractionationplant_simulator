@@ -10,7 +10,7 @@ export const AboutPage: React.FC = () => {
           <div className="flex items-center gap-2 text-cyan-400 mb-1">
             <Layers size={22} />
             <h1 className="text-lg font-bold text-white tracking-wider">
-              BADAK LNG PLANT-3 FRACTIONATION TRAIN OPERATOR TRAINING SIMULATOR (OTS)
+              PLANT-3 FRACTIONATION TRAIN OPERATOR TRAINING SIMULATOR (OTS)
             </h1>
           </div>
           <p className="text-gray-400 text-xs">
@@ -27,8 +27,8 @@ export const AboutPage: React.FC = () => {
           <p className="leading-relaxed text-[11px]">
             This software is an <strong>educational engineering simulation</strong> designed to teach distillation dynamics,
             abnormal condition diagnosis, and industrial DCS operating procedures. While modeled closely after the
-            visual layout and nomenclature of Badak LNG Plant-3 Yokogawa CENTUM CS3000 / VP operating screens,
-            it is <strong>NOT an official product of PT Badak NGL or Yokogawa Electric Corporation</strong>.
+            visual layout and nomenclature of industrial Plant-3 Yokogawa CENTUM CS3000 / VP operating screens,
+            it is <strong>an educational prototype and NOT affiliated with or an official product of any operating facility or Yokogawa Electric Corporation</strong>.
           </p>
           <p className="text-[10px] text-amber-300/80">
             Unpublished setpoints, proprietary vendor C&E logic, and internal ESD matrices have been modeled using

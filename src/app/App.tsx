@@ -148,7 +148,7 @@ export const App: React.FC = () => {
         <div className="flex items-center gap-3">
           <span className="text-gray-500">HOTKEYS: [F1..F12] / [ESC: CLOSE POPUP]</span>
           <span className="text-gray-600">|</span>
-          <span className="text-cyan-400 font-bold tracking-wider">BADAK LNG OTS — YOKOGAWA CENTUM VP</span>
+          <span className="text-cyan-400 font-bold tracking-wider">PLANT-3 OTS — YOKOGAWA CENTUM VP</span>
         </div>
       </footer>
     </div>

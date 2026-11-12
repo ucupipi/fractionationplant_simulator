@@ -1,11 +1,11 @@
-# Plant-3 Fractionation Unit Operator Training Simulator (OTS) - Badak LNG
+# Plant-3 Fractionation Unit Operator Training Simulator (OTS)
 
 > **Educational Web-based Simulator** for LNG fractionation train operations, abnormal situation diagnosis, and closed-loop process control.
 
 ---
 
 ## 📌 Disclaimer & Safety Boundary
-This software is an **educational and training prototype**. It is **NOT** an official Badak LNG or Yokogawa system, nor is it safety-certified. All operating parameters, controller tunings, and alarm setpoints not explicitly validated against official plant documentation are designated as **"TRAINING / ENGINEERING ASSUMPTIONS"** and stored in editable configuration files.
+This software is an **educational and training prototype**. It is **NOT** an official Yokogawa system, nor is it affiliated with any commercial operating facility, and it is not safety-certified. All operating parameters, controller tunings, and alarm setpoints not explicitly validated against standard engineering documentation are designated as **"TRAINING / ENGINEERING ASSUMPTIONS"** and stored in editable configuration files.
 
 ---
 

@@ -1,5 +1,5 @@
 # AGENTS.md — UNDANG-UNDANG DISIPLIN MUTLAK & ANTI-DOSA REKAYASA
-## BADAK LNG PLANT-3 OTS & AI C3MR OPTIMIZATION SUITE
+## LNG PLANT-3 OTS & AI C3MR OPTIMIZATION SUITE
 
 Dokumen ini adalah undang-undang tertinggi dan konstitusi operasional yang **WAJIB DIPATUHI OLEH SETIAP AGENT AI TANPA PENGECUALIAN**. Dilarang keras melakukan asumsi fiktif, mengarang angka gaib, memalsukan model Machine Learning, membuat jalan pintas malas, atau menulis kode yang merusak keabsahan ilmiah dan keselamatan proses LNG.
 
@@ -13,7 +13,7 @@ Dokumen ini adalah undang-undang tertinggi dan konstitusi operasional yang **WAJ
 2. Setiap konstanta, koefisien polynomial, dan parameter dalam kode **WAJIB BERSUMBER DARI**:
    - Dataset operasional aktual (`scrubcolumn.xlsx`, `OTSMINI.xlsx`, `master_minute_level.parquet`).
    - Persamaan Termodinamika & EOS resmi (Peng-Robinson EOS, CoolProp, NeqSim, Steam Tables).
-   - Datasheet instrumen Badak LNG (`Plant3_Instrumentation_Tag_List.xlsx`).
+   - Datasheet instrumen Plant-3 (`Plant3_Instrumentation_Tag_List.xlsx`).
 
 ### Pasal 2: Haram Pseudo-ML & Regresi Palsu (Zero Fake Regression)
 1. **DILARANG KERAS** meloloskan model surrogate ML yang memiliki performa defektif ($R^2 < 0.60$) atau melatih model tanpa pemisahan dataset valid (`train_test_split`).
@@ -51,7 +51,7 @@ Setiap pemodelan dan optimasi siklus pendinginan C3MR **WAJIB MEMATUHI 10 MODUL 
   Reheat valve 4TV-510 wajib membuka proporsional jika $T_{\text{suct}}$ mendekati batas bawah untuk mencegah *liquid carryover* ke impeller.
 - **Modul 5 (Compositional Geometry):** Transformasi Aitchison Isometric Log-Ratio (ILR) pada ruang Simpleks $S^D$ dan verifikasi Mahalanobis Distance:
   $$D_M = \sqrt{(\mathbf{z} - \boldsymbol{\mu})^T \boldsymbol{\Sigma}^{-1} (\mathbf{z} - \boldsymbol{\mu})} \le 3.0802 \quad (\chi^2_{0.95, 6})$$
-  Haram merekomendasikan komposisi refrigeran di luar elipsoid operasional kilang Badak.
+  Haram merekomendasikan komposisi refrigeran di luar elipsoid operasional kilang.
 - **Modul 6 (Surrogate Architecture):** Model surrogate wajib menerapkan batasan monoton (`monotonic_cst`) pada variabel fisik searah.
 - **Modul 7 (Barrier Reward Engine):** Log-barrier penalty untuk pelanggaran batasan operasional kilang.
 
@@ -144,7 +144,7 @@ Setiap pemodelan dan optimasi siklus pendinginan C3MR **WAJIB MEMATUHI 10 MODUL 
 Setiap modifikasi kode pada repositori ini **WAJIB LOLOS 4 PINTU VERIFIKASI** sebelum diserahkan kepada pengguna:
 
 1. **Pintu 1 (Dataset Ground Truth Gate):**
-   Setiap konstanta, baseline sensor, dan koefisien regresi wajib terbukti secara matematis bersumber dari `scrubcolumn.xlsx`, `OTSMINI.xlsx`, atau manual operasi Badak LNG.
+   Setiap konstanta, baseline sensor, dan koefisien regresi wajib terbukti secara matematis bersumber dari `scrubcolumn.xlsx`, `OTSMINI.xlsx`, atau manual operasi Plant-3.
 2. **Pintu 2 (Static Typing & Compilation Gate):**
    Jalankan kompilasi TypeScript:
    ```cmd

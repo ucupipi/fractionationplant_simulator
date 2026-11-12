@@ -127,7 +127,7 @@ export const LayoutEditorToolbar: React.FC<LayoutEditorToolbarProps> = ({ screen
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `badak_ots_layout_${screenId.toLowerCase()}.json`;
+    a.download = `plant3_ots_layout_${screenId.toLowerCase()}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
